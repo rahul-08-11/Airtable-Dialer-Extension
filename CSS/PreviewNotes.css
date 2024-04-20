@@ -1,0 +1,20 @@
+.View-preview-notes-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    
+    /* font-weight: bold; */
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    height: min-content;
+    margin-bottom: 5px
+  }
+.past-notes-content{
+
+    border: 1px solid #ccc;
+}
+.past-notes-container-comp{
+    width: 100%;
+}

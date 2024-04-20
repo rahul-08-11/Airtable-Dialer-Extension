@@ -1,0 +1,31 @@
+.header-container {
+    font-family: 'Roboto';
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: normal;
+    font-size: 20px;
+    position: relative;
+}
+
+.CurrentVehicleName {
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.TopOfferedSpan {
+    font-family: 'Roboto';
+    margin-right: 10px;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    margin-right: 10px;
+}

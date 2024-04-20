@@ -1,0 +1,64 @@
+.VehicleDetials-container{
+    display: flex;
+    flex-wrap: wrap
+}
+
+
+.VehicleDetials-container .VehicleDetials-ul {
+  flex: 0 0 50%;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Define classes for different recommendation scores */
+.hot-score {
+    font-weight: bold;
+    color: #FF5733; /* Red color for Hot */
+  }
+  
+  .recommendation-container {
+    width: 50%;
+    height: 300px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+  }
+  .warm-score {
+    font-weight: bold;
+    color: #FFA500; /* Orange color for Warm */
+  }
+  
+  .cold-score {
+    font-weight: bold;
+    color: blue; /* Blue color for Cold */
+  }
+
+  .Select-Option{
+    width: 145px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    margin-right: 10px 
+  }
+  
+
+  .Input-offered-amount {
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #e6f2ff;
+    height: 32px;
+    width: 140px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.VehicleRecommendation-container{
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:13px
+}

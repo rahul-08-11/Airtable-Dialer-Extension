@@ -1,0 +1,257 @@
+/* Login.css
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } */
+  .logout-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  
+  /* Start button */
+  .start-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  .start-button.clicked {
+    background-color: #969696; /* Change to your desired color */
+  }
+  .pause-resume-button {
+
+    background-color: #ff9800; /* Orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between buttons */
+  } 
+  
+  
+  /* Pause button */
+  .pause-button {
+    background-color: #2196f3; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  
+
+
+  .vehicle-info {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .value {
+    font-style: italic;
+  }
+  /* CSS for making the text stand out */
+.text-container {
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px; /* Add padding for better readability */
+}
+
+.text-container div {
+  margin-bottom: 10px; /* Add some spacing between text elements */
+  font-size: 18px; /* Increase font size */
+  font-weight: bold; /* Make text bold */
+  color: #333; /* Dark text color */
+}
+
+.text-container div span {
+  color: #007bff; /* Change the color of specific elements */
+}
+  
+  /* Resume button */
+  .resume-button {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  } */
+  
+
+
+  .container {
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+  }
+
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .emoji {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .goodbyer-emoji {
+    font-size: 2em;
+    animation: bounce 1s infinite alternate; /* Add bounce animation */
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .iframes-container {
+    display: flex;
+
+
+  }
+  
+  .iframes-container iframe {
+    width: 50%;
+    border: none;
+    height: 100%;
+    margin: 0 10px;
+  }
+  
+  .Incoming-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle text shadow */
+    /* margin-bottom: 10px; Add some space below the heading */
+  }
+
+ .incoming-calls-start {
+    height: 50%; /* Each section takes up half of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    height: 100%; /* Full height of the viewport */
+  }
+  .incoming-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  /* incoming alert header */
+  
+
+  .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.red {
+  background-color: red;
+  animation: blink-animation 1s infinite alternate; /* Blink animation */
+}
+
+@keyframes blink-animation {
+  from {
+      opacity: 1; /* Fully visible */
+  }
+  to {
+      opacity: 0; /* Invisible */
+  }
+}
+.green {
+    background-color: green;
+}
+
+
+
+.Function-main-containers{
+  margin-top: 3px;
+}
