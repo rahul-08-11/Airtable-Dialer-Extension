@@ -38,7 +38,8 @@ This component is responsible for displaying crucial information that will be ut
 - **Vehicle Name** : Shows the Name of vehicle for which we are calling contact or buyers
 - **Top Offered Amount** : Shows the highest amount offered for the respective vehicle
 - **Call-Back Scheduler** :  Input component integrated with [Call Back Feature](#callback-feature)<br>
-**To learn about code visit** : [HeaderComponents.js](https://github.com/rahul-08-11/Airtable-Dialer-Extension/blob/main/Components/HeaderComponents.js)
+
+> **To learn about code visit** : [HeaderComponents.js](https://github.com/rahul-08-11/Airtable-Dialer-Extension/blob/main/Components/HeaderComponents.js)<br>
 
 ### Soft-phone 
 <img src = "https://github.com/rahul-08-11/Airtable-Dialer-Extension/assets/90087006/aa43dff3-2ad4-4a38-b8ea-03cc5275d26f" width="500px" height="250px"><br>
@@ -80,7 +81,7 @@ This component is responsible for displaying crucial information that will be ut
                 +-------------------+        ending the call.
      ```
     <br>
-**To learn about code visit** : [Dialer Backend Repo](https://github.com/rahul-08-11/Airtable-Dialer-Software) <br>
+> **To learn about code visit** : [Dialer Backend Repo](https://github.com/rahul-08-11/Airtable-Dialer-Software) <br>
 
 
 ### Vehicle Recommendation 
