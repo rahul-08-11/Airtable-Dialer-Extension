@@ -38,7 +38,7 @@ function PastNotesChildComponents({ PastNotes }){
     }
 
 
-function PastNotesParentComponent({pastNotes ,setPastNotes ,BuyerDetails ,ngrok_url_1}) {
+function PastNotesParentComponent({pastNotes ,setPastNotes ,BuyerDetails ,server_url}) {
   
     async function PreviewPastNotes() {
       // const buyername=BuyerDetails.buyer_name
@@ -46,7 +46,7 @@ function PastNotesParentComponent({pastNotes ,setPastNotes ,BuyerDetails ,ngrok_
       previewButton.textContent="Loading Notes..." 
       const buyername=BuyerDetails.buyer_name;
       console.log("preview past notes for",buyername)
-      const resp=await axios.post(`${ngrok_url_1}/preview-past-notes`, {
+      const resp=await axios.post(`${server_url}/preview-past-notes`, {
         BuyerName:buyername
      })
      const res=resp.data

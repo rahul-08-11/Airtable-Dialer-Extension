@@ -66,7 +66,7 @@ function InputOfferedAmountComponent({recommendation ,handleInputChange, inputVa
   )
 }
 
-function VehicleRecommendationComponent({ VehicleRecommendation, vehicleNameToMoveToTop, leadStatus, setLeadStatus, handleLeadStatusChange, handleInputChange, setofferamount, SendSMSVehicle, inputValue ,handleViewMore}) {
+function VehicleRecommendationComponent({ VehicleRecommendation, vehicleNameToMoveToTop, leadStatus, setLeadStatus, update_lead_status, handleInputChange, setofferamount, SendSMSVehicle, inputValue ,handleViewMore}) {
     return (
         <>
             {Object.keys(VehicleRecommendation).length !== 0 ? (
@@ -88,7 +88,7 @@ function VehicleRecommendationComponent({ VehicleRecommendation, vehicleNameToMo
     
                               <div style={{ display: 'flex', alignItems: 'center', marginTop: '10px' }}>      
                          
-                                < SelectOptionComponent setLeadStatus={setLeadStatus} handleLeadStatusChange={handleLeadStatusChange} leadStatus={leadStatus} recommendation={recommendation} />
+                                < SelectOptionComponent setLeadStatus={setLeadStatus} handleLeadStatusChange={update_lead_status} leadStatus={leadStatus} recommendation={recommendation} />
                              
                                 < InputOfferedAmountComponent recommendation={recommendation} handleInputChange={handleInputChange} inputValue={inputValue} />
 
