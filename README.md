@@ -1,4 +1,4 @@
-# Airtable Dialer Extension ![alt text](https://img.shields.io/badge/AirtableDialer-v18.13.0-18BFFF) 
+# Airtable Dialer Extension ![alt text](https://img.shields.io/badge/Airtable-v1.8.0-FF4154) ![alt text](https://img.shields.io/badge/React-v16.13.0-61DAFB) ![alt text](https://img.shields.io/badge/Axios-v1.6.7-5A29E4) 
 
 Welcome to the frontend repository for the Dialer Project!
 
@@ -32,7 +32,7 @@ It's recommended that when initiating a new call, agents utilize the pause butto
 > 
 ### Dialer Header
 This component is responsible for displaying crucial information that will be utilised by the Agent or User while making calls.The header contains various elements as displayed in the following image.
-<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/539cdcdd-1310-431b-83a7-927fa1531583" height="500px" width="800px">
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/539cdcdd-1310-431b-83a7-927fa1531583" height="500px" width="850px">
 <br>
 
 - **Vehicle Name** : Shows the Name of vehicle for which we are calling contact or buyers
@@ -85,8 +85,8 @@ This component is responsible for displaying crucial information that will be ut
 
 
 ### Vehicle Recommendation 
-Vehicles that are going to be presented or recommended during the Phone calls will be displayed or accessible through this component. <br>
-<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37"  width="850px" height="600px"><br>
+Vehicles to be presented or recommended during phone calls will be displayed or accessible through this component. By default, the first recommendation shown will be for the vehicle corresponding to the client we have called (as shown in the header component). This component comes with numerous options that allow users to interact directly with the content of the Airtable and update respective data in the table. It is integrated with a feature [View More Recommendation](#view-more-recommendation)<br>.The following image shows the component as marked using a black rectangle.
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37"  width="800px" height="500px"><br>
 
 
 
