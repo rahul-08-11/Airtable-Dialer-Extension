@@ -85,8 +85,8 @@ This component is responsible for displaying crucial information that will be ut
 
 
 ### Vehicle Recommendation 
-Vehicles that are going to be presented or recommended during the Phone calls will be displayed or accessible through this component. 
-<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37" alt="vehicleRecommendationcomp" width="500px" height="250px"><br>
+Vehicles that are going to be presented or recommended during the Phone calls will be displayed or accessible through this component. <br>
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37"  width="850px" height="600px"><br>
 
 
 
