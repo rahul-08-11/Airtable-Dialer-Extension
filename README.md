@@ -31,16 +31,74 @@ The purpose of this extension is to increase the productivity of the Agent in ma
 It's recommended that when initiating a new call, agents utilize the pause button. This ensures that after the current call ends and agents complete any necessary tasks or adjustments, they can seamlessly resume the process or proceed to the next call.
 > 
 ### Dialer Header
-![headercomp](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/539cdcdd-1310-431b-83a7-927fa1531583)
+This component is responsible for displaying crucial information that will be utilised by the Agent or User while making calls.The header contains various elements as displayed in the following image.
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/539cdcdd-1310-431b-83a7-927fa1531583" height="500px" width="800px">
+<br>
+
 - **Vehicle Name** : Shows the Name of vehicle for which we are calling contact or buyers
 - **Top Offered Amount** : Shows the highest amount offered for the respective vehicle
-- **Call-Back Scheduler** :  Input component explained in feature **CallBack Feature**
-  
+- **Call-Back Scheduler** :  Input component integrated with [Call Back Feature](#callback-feature)<br>
+**To learn about code visit** : [HeaderComponents.js](https://github.com/rahul-08-11/Airtable-Dialer-Extension/blob/main/Components/HeaderComponents.js)
+
+### Soft-phone 
+<img src = "https://github.com/rahul-08-11/Airtable-Dialer-Extension/assets/90087006/aa43dff3-2ad4-4a38-b8ea-03cc5275d26f" width="500px" height="250px"><br>
+ -  **Displayed Contents** : The soft-phone display some texts which uniquely identify the Buyer's that are being connected.
+ -  **Embedded Dial-pad** : Soft-phone is embedded with a dial pad that is use to send digits to the other end.
+- **Muting**: The soft-phone comes with three buttons:
+  - **Hangup**: Allows the user to cut or disconnect the active call.
+  - **Mute**: Allows the user to mute the active call.
+  - **Call**: Allows the user to re-dial the called number or buyer.
+
+    
+   **Calling Stages**
+    ```
+                +-------------------+
+                |                   |
+                |   Call Preparing  |------->This state indicates that the system is currently
+                |                   |        configuring and setting up tokens for the new call.                   
+                +-------------------+
+                         |
+                         v
+                +-------------------+
+                |                   |------->Once the call preparation is complete, the call is conside
+                |    Call Ready     |        -red ready, meaning it has been successfully set up and 
+                |                   |         configured.
+                +-------------------+
+                         |
+                         v
+                +-------------------+
+                |                   |------->This state indicates that the connection to the other end 
+                |  Call Connected   |        has been established. However, note that it doesn't
+                |                   |        necessarily mean that the call has been received by the 
+                +-------------------+        other end yet.
+                         |
+                         v
+                +-------------------+
+                |                   |
+                | Call Disconnected |------->This state indicates that the connection has been cut out 
+                |                   |        or closed from any of the respective ends, effectively 
+                +-------------------+        ending the call.
+     ```
+    <br>
+**To learn about code visit** : [Dialer Backend Repo](https://github.com/rahul-08-11/Airtable-Dialer-Software) <br>
+
+
+### Vehicle Recommendation 
+Vehicles that are going to be presented or recommended during the Phone calls will be displayed or accessible through this component. 
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37" alt="vehicleRecommendationcomp" width="500px" height="250px"><br>
+
+
+
 This is a Airtable Extension integrated with Twilio API 
-![Softphone](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/cd42e957-39ed-4d9c-b6bf-a0f77d41106c)
-![showcontactbefore](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/53f65d47-13f6-4fc0-87bd-7fd8d2d31a8d)
-![ShowContactAfterClick](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/686e4719-bf10-4585-ab2a-208d3331e38b)
-![Section4](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/d0378d7b-4070-407f-ba8c-40612756263b)
-![section2](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/5fba0657-3243-4851-be59-2ae90ece152e)
-![vehicleRecommendationcomp](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37)
+
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/53f65d47-13f6-4fc0-87bd-7fd8d2d31a8d" alt="showcontactbefore" width="500px" height="250px"><br>
+
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/686e4719-bf10-4585-ab2a-208d3331e38b" alt="ShowContactAfterClick" width="500px" height="250px"><br>
+
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/d0378d7b-4070-407f-ba8c-40612756263b" alt="Section4" width="500px" height="250px"><br>
+
+<img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/5fba0657-3243-4851-be59-2ae90ece152e" alt="section2" width="500px" height="250px"><br>
+
+
+
 
