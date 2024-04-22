@@ -6,7 +6,7 @@ Welcome to the frontend repository for the Dialer Project!
 
 - [Introduction](#introduction)
 - [Purpose](#purpose)
-- [Installation](#installation)
+- [Components](#frontend-components)
 
 
 ## Introduction
@@ -15,7 +15,27 @@ This repository contains extension code which act as our frontend for creating a
 ## Purpose
 The purpose of this extension is to increase the productivity of the Agent in making calls and setting offers by automating maximum work laod using various various integrated or built-in features.By providing seamless calls, text messaging, and other features, the system aims to efficiently connect agents with potential buyers, particularly for vehicle recommendations.
 
+## Frontend Components
 
+### Key Controllers
+🔘 Main Button Components
+
+- **Logout Button**: This button allow Agent or User to Leave the Dialing or exit the Dialer Completely.
+
+> **Note** : User or Agent should logout only if there are no active call
+> 
+- **Start Dialer Button**:Once the Start button is clicked on it is going initiate call one by one to each potential buyers for specific vehicle based on the Arrangement of vehicles in the Vehicle Table.
+- **Pause Call Button**: This heading would describe the purpose and functionality of the button used to temporarily pause ongoing calls, providing agents with control over their communication interactions.
+
+> **Call Management Tips: Utilizing the Pause Functionality**
+It's recommended that when initiating a new call, agents utilize the pause button. This ensures that after the current call ends and agents complete any necessary tasks or adjustments, they can seamlessly resume the process or proceed to the next call.
+> 
+### Dialer Header
+![headercomp](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/539cdcdd-1310-431b-83a7-927fa1531583)
+- **Vehicle Name** : Shows the Name of vehicle for which we are calling contact or buyers
+- **Top Offered Amount** : Shows the highest amount offered for the respective vehicle
+- **Call-Back Scheduler** :  Input component explained in feature **CallBack Feature**
+  
 This is a Airtable Extension integrated with Twilio API 
 ![Softphone](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/cd42e957-39ed-4d9c-b6bf-a0f77d41106c)
 ![showcontactbefore](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/53f65d47-13f6-4fc0-87bd-7fd8d2d31a8d)
@@ -23,4 +43,4 @@ This is a Airtable Extension integrated with Twilio API
 ![Section4](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/d0378d7b-4070-407f-ba8c-40612756263b)
 ![section2](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/5fba0657-3243-4851-be59-2ae90ece152e)
 ![vehicleRecommendationcomp](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37)
-![headercomp](https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/539cdcdd-1310-431b-83a7-927fa1531583)
+
