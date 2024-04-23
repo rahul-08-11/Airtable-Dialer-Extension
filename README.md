@@ -87,7 +87,30 @@ This component is responsible for displaying crucial information that will be ut
 
 
 ### Vehicle Recommendation <br>
-Vehicles to be presented or recommended during phone calls will be displayed or accessible through this component. By default, the first recommendation shown will be for the vehicle corresponding to the client we have called header.This component comes with numerous options that allow users to interact directly with the content of the Airtable and update respective data in the table. It is integrated with a feature ****. <br><br>
+This is a `click-on-load` Component.Vehicles to be presented or recommended during phone calls will be displayed or accessible through this component. By default, the first recommendation shown will be for the vehicle corresponding to the client we have called header.This component comes with numerous options that allow users to interact directly with the content of the Airtable and update respective data in the table. It is integrated with a various feature and functionality.<br><br>elem
+There are various elements present on this component that agent could interact with and carry out updation on table as well as send **Text SMS** to client along with Vehicle Name.Below is the iamge that depict the interactive elements on this section.<br><br>
+![2024-04-23_15-06](https://github.com/rahul-08-11/Airtable-Dialer-Extension/assets/90087006/95deff4b-0323-40f4-8001-02da5009e292)
+### Features and Functionality <br>
+### 1. View More Recommendations <br>
+- **Description**: This feature utilizes the `click-on-load` logic to efficiently load necessary data during phone calls. It allows agents to dynamically load additional vehicle recommendations based on client conversations.
+- **Usage**: Agents can load up to 3 recommendations, displayed below the existing recommendations. Hot recommendations are prioritized and shown at the top, while cold recommendations are displayed below.
+
+### 2. Set Progress Status
+- **Description**: Agents can update a lead's Progress status directly from the UI. The Progress status is a dropdown element with various update options:
+  - `To be contacted`: Initial status indicating the lead has not been contacted yet.
+  - `Contacted`: Lead has been reached out to, but no substantive conversation has occurred.
+  - `Offer made`: A formal offer has been extended to the lead.
+  - `Negotiation`: Ongoing dialogue with the lead to discuss terms, often following a counteroffer.
+- **Usage**: Agents can select the appropriate status from the dropdown menu to update the lead's Progress status.
+
+### 3. Set Offer Amount
+- **Description**: After discussing pricing with the client, agents can directly set the offered amount into the Airtable database through the dialer UI. Agents can input the offered amount into the text box and click the 'Set' button to trigger an update request to the backend.
+- **Usage**: Agents input the offered amount and click 'Set' to update the offer amount in the database.
+
+### 4. Text SMS
+- **Description**: This feature efficiently handles scenarios where clients or other parties prefer to receive vehicle details via text message. Agents can click the 'Send Vehicle' button for a specific vehicle, triggering an automatic text message sent to the client.
+- **Usage**: Agents select the vehicle and click 'Send Vehicle' to automatically send a text message with vehicle details to the client.
+
 <img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/b9183e89-e738-4b07-9e0c-060ffa157f37"  width="900px" height="550px"><br><br><br>
 
 > **To learn about code visit** : [vehicleRecommendation.js](https://github.com/rahul-08-11/Airtable-Dialer-Extension/blob/main/Components/VehicleRecommendationComponent.js)<br><br>
@@ -103,12 +126,15 @@ This is **load-on-click** component,meaning the data will be only presented if o
 
 
 ### Other Data View and Input Note <br>
- **Buyer's Info** : <br>
-  This Component display the information related to the Buyer such as Name, address, Category and Purcchase price.<br>
- **PastNotes Display** :<br>
- This  is `load-on-click` component.It allow the Agent to have a look at the past notes associated with the called company.This allow Agent to revise old conservation and prepare deals based on it.<br>
- **Live Note Taking** :<br>
- This is basically a Text Box element that allow Agent to write notes during the call.The entered note is going to be appended into the Airtable "Interaction" table once the call has been finsihed and when the agent moved to attend their next call. <br>
+**Buyer's Info**:
+- This component displays information related to the buyer, such as their name, address, category, and purchase price.
+
+**Past Notes Display**:
+- This is a `load-on-click` component. It allows the agent to review past notes associated with the called company. This feature enables agents to revisit previous conversations and prepare deals based on historical information.
+
+**Live Note Taking**:
+- This feature consists of a text box element that enables agents to take notes during the call. The entered notes are appended to the Airtable "Interaction" table once the call is finished and the agent moves on to attend their next call.
+
 
 <img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/d0378d7b-4070-407f-ba8c-40612756263b" alt="Section4" width="900px" height="550px"><br>
 
