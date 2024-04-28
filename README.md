@@ -8,6 +8,7 @@ Welcome to the frontend repository for the Dialer Project!
 - [Purpose](#purpose)
 - [Components](#frontend-components)
 - [Woking With Auto-Dialer](#working-with-dialer)
+- [Popup Integration](#popup-integration)
 - [Status](#status)
 - [References](#references)
 
@@ -151,6 +152,11 @@ This is **load-on-click** component,meaning the data will be only presented if o
 8. **Pause and Resume**: Users can pause the system's execution at any time by clicking the "Pause Call" button and resume from where they left off.<br>
 9. **Logout**: Users can log out of the system by clicking the "Logout" button, ending the session securely.<br>
 <br>
+
+## Popup Integration<br>
+The integration allows agents to make manual calls or send text messages, simply by clicking on a button. <br>
+
+[Screencast from 2024-04-28 08-12-52.webm](https://github.com/rahul-08-11/Airtable-Dialer-Extension/assets/90087006/bb1936f2-1a2d-48e5-8b24-fe23c47a5aad)
 
 ## Status
 <br>
