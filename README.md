@@ -7,7 +7,7 @@ Welcome to the frontend repository for the Dialer Project!
 - [Introduction](#introduction)
 - [Purpose](#purpose)
 - [Components](#frontend-components)
-- [Execution and Workflow](#execution-and-workflow)
+- [Woking With Auto-Dialer](#working-with-dialer)
 - [Status](#status)
 - [References](#references)
 
@@ -135,6 +135,33 @@ This is **load-on-click** component,meaning the data will be only presented if o
 **Live Note Taking**:
 - This feature consists of a text box element that enables agents to take notes during the call. The entered notes are appended to the Airtable "Interaction" table once the call is finished and the agent moves on to attend their next call.
 
-
 <img src="https://github.com/rahul-08-11/Airtable-Dialer-Extension-Frontend/assets/90087006/d0378d7b-4070-407f-ba8c-40612756263b" alt="Section4" width="900px" height="550px"><br>
+<br>
+<br>
+## Working With Dialer
+<br>
 
+1. **Authentication**: Users authenticate themselves using their UserID and password to access the system.<br>
+2. **Accessing Leads**: Upon login, the system retrieves lead data including LeadID and associated vehicles for calling.<br>
+3. **Initiating Calls**: Users select a lead from the "Leads Table" and click the "Start Dialer" button to initiate calls.<br>
+4. **Call Handling**: During the call, users update lead information in real-time based on the conversation.<br>
+5. **Data Update**: After the call ends, users update the lead's information in the system, typically through form filling or field updates.<br>
+6. **Automatic Progression**: Once the call is completed and the data is uploaded in the crm, the system automatically moves on to the next lead in the list.<br>
+7. **Incoming Call Handling**: If an incoming call occurs while the system is connecting to the next lead, the system prioritizes the incoming call.<br>
+8. **Pause and Resume**: Users can pause the system's execution at any time by clicking the "Pause Call" button and resume from where they left off.<br>
+9. **Logout**: Users can log out of the system by clicking the "Logout" button, ending the session securely.<br>
+<br>
+
+## Status
+<br>
+The project is currently under development.
+
+## References <br>
+
+### Resource and Documentation <br>
+
+- [Twilio Voice SDK Docs](https://github.com/TwilioDevEd/voice-javascript-sdk-quickstart-python](https://www.twilio.com/docs/voice/sdks/javascript/twiliodevice))<br>
+- [Twilio API Docs](https://www.twilio.com/docs/)<br>
+- [Airtable API Docs](https://pyairtable.readthedocs.io/en/stable/api.html#api-pyairtable)<br>
+- [Twilio SDK Quckstart Repository](https://github.com/TwilioDevEd/voice-javascript-sdk-quickstart-python)<br>
+- [Airtable Block SDK](https://airtable.com/developers/extensions/api)<br>
