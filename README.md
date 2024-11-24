@@ -16,7 +16,7 @@ Welcome to the frontend repository for the Dialer Project!
 This repository contains extension code which act as our frontend for creating a dialer system within the Airtable (CRM) UI, essentially an Airtable extension facilitating calls and text messages to clients integrated with other features.This extension aims to streamline communication processes for the given lead in the airtable, enabling agents to concentrate on interactions rather than navigating through various buttons.
 
 ## Purpose
-The purpose of this extension is to increase the productivity of the Agent in making calls and setting offers by automating maximum work laod using various various integrated or built-in features.By providing seamless calls, text messaging, and other features, the system aims to efficiently connect agents with potential buyers, particularly for vehicle recommendations.
+The purpose of this extension is to increase the productivity of the Agent in making calls and setting offers by automating maximum work load using various integrated or built-in features.By providing seamless calls, text messaging, and other features, the system aims to efficiently connect agents with potential buyers, particularly for vehicle recommendations.
 
 ## Frontend Components
 
